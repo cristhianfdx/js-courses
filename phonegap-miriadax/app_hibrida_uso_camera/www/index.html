@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Camera</title>
+        <link rel="stylesheet" href="css/camara.css">
+    </head>
+    <body>
+        
+        <div class="header">
+            <img  align="left" src="img/camara.png" width="42" height="42">
+            <span>Mi Cámara con Filtros</span>
+        </div>
+
+        <canvas id="foto">No soporta canvas</canvas>
+
+        <div class="button_container">
+            <button class="button button_filter">B &amp; N</button>
+            <button class="button button_filter">Negativo</button>
+            <button class="button button_filter">Sepia</button>
+        </div>
+
+        <div class="button_container">
+            <button id="button_action" class="button">Tomar Foto</button>
+            <button id="button_gallery" class="button">Galeria</button>
+        </div>
+
+        <div class="footer">
+            Aprendiendo a crear Apps </br>
+            Cristhian Forero
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/ftlabs-fastclick-536219b/lib/fastclick.js"></script>
+        <script type="text/javascript" src="js/effects.js"></script>
+        <script type="text/javascript" src="js/camara.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.header{
+    padding: 0 10px;
+    color: #666;
+    background-color: #eee;
+    text-align: center;
+    height: 48.4px;
+    line-height: 48.4px;
+}
+.footer{
+    padding: 5px;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+#map{
+    margin: 20px 0;
+    border: 1px solid;
+    height: 480px;
+}
